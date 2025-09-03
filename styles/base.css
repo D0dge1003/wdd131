@@ -80,6 +80,9 @@ body {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
+h2{
+  font-family: Josefin sans;
+}
 
 .card-body {
   padding: 20px;
@@ -146,10 +149,14 @@ body {
 
 h1 {
 	text-align: center;
-	background-color: #154c79;
-	padding: 40px;
-	color: #fff;
+	color: rgb(255, 187, 0);
 	font-size: 20px;
+  background-color: #154c79;
+  padding-bottom: 20px;
+  font-family: Josefin Sans;
+}
+h3{
+  font-family: Josefin Sans;
 }
 
 p {
@@ -187,16 +194,18 @@ nav {
   color: rgb(255, 187, 0);
 }
 
-main h1 {
+#course-title {
+    display: block;
     text-align: center;
     background-color: #154c79;
-    padding: 40px;
+    padding-top: 40px;
     color: #fff;
-    font-size: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Josefin sans;
 }
 
-
-#course-title,
+#course-title 
 main h1 {
     text-align: center;
     background-color: #154c79;
