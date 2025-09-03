@@ -194,7 +194,7 @@ main {
 .highlight {
   color: rgb(255, 187, 0);
 }
-/* This centers the span and sets its color/font */
+
 #course-title {
     display: block;
     text-align: center;
@@ -204,7 +204,7 @@ main {
     font-size: 200px;
 }
 
-/* This styles the main heading */
+
 main h1 {
     text-align: center;
     background-color: #154c79;
@@ -213,7 +213,7 @@ main h1 {
     font-size: 200px;
 }
 
-/* Optional: Grouped selector to reduce redundant code */
+
 #course-title,
 main h1 {
     text-align: center;
