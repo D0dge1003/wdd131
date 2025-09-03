@@ -8,10 +8,10 @@ header {
 }
 .about-photo{
 	width: 200px;
-    height: var(--height);
-    float: right;
-    margin: 0 0 10px 15px;
-    margin-top: 25px;
+  height: var(--height);
+  float: right;
+  margin: 0 0 10px 15px;
+  margin-top: 25px;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 	border-radius: 15px;
 }
@@ -129,11 +129,10 @@ footer {
   background: #154c79;
   padding: 2rem;
   text-align: center;
-  grid-column: 1 / 4;
   color: #eee;
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  width: 100%;
+  width:100%;
 }
 
 * {
@@ -157,10 +156,9 @@ p {
 	text-align: center;
 }
 
-
 nav {
 	margin: 0 auto 2rem;
-    width: 100%;
+  width: 100%;
 }
 
 main {
@@ -196,3 +194,32 @@ main {
 .highlight {
   color: rgb(255, 187, 0);
 }
+/* This centers the span and sets its color/font */
+#course-title {
+    display: block;
+    text-align: center;
+    background-color: #154c79;
+    padding: 40px;
+    color: #fff;
+    font-size: 200px;
+}
+
+/* This styles the main heading */
+main h1 {
+    text-align: center;
+    background-color: #154c79;
+    padding: 40px;
+    color: #fff;
+    font-size: 200px;
+}
+
+/* Optional: Grouped selector to reduce redundant code */
+#course-title,
+main h1 {
+    text-align: center;
+    background-color: #154c79;
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+}
+
