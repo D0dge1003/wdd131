@@ -70,6 +70,10 @@ main {
     width: 25px;
     height: 25px;
 }
+.card h2::after {
+    content: '';
+    display: block;
+}
 
 .data-card {
     top: 50px;
