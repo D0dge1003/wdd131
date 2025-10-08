@@ -49,25 +49,21 @@ header .container {
     font-weight: bold;
     color: var(--primary-color);
     text-shadow: 0 0 10px var(--primary-color);
-    display: flex; /* Makes the contents line up horizontally */
-    align-items: center; /* Vertically centers the image and text */
+    display: flex; 
+    align-items: center; 
     gap: 8px;
 }
 .logo-image {
-    height: 80px; /* Adjust the size of the logo to fit the header */
+    height: 80px; 
     width: auto;
-    /* Optional: You may want to add vertical-align to fine-tune alignment 
-    vertical-align: middle; */
 }
 
-/* You might need to check your existing styles for 'header .container'
-   to ensure the logo and navigation are on opposite sides.
-   If not, ensure your existing 'header .container' has these properties: */
 header .container {
     display: flex;
-    justify-content: space-between; /* Puts logo and nav on opposite sides */
+    justify-content: space-between; 
     align-items: center;
 }
+
 nav ul {
     list-style: none;
     display: flex;
